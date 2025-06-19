@@ -9,7 +9,6 @@ int main() {
 //getting inputs 
     cout << "Enter the number of days: ";
     cin >> number_of_days;
-
     cout << "Enter the stock prices for each day: ";
     for (int day_index = 0; day_index < number_of_days; day_index++) {
         cin >> stock_prices[day_index];
