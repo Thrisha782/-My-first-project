@@ -26,5 +26,6 @@ int main() {
 
     // Output the total profit
     cout << "Maximum profit: " << total_profit;
+
     return 0;
 }
