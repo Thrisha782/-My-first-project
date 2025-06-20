@@ -14,7 +14,6 @@ int main() {
     for (int input_counter = 0; input_counter < array_size; input_counter++) {
         scanf("%d", &array[input_counter]);
     }
-
     // Input target value to find subset sum
     int target_value;
     printf("Enter the target value: ");
