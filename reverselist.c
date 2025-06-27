@@ -73,7 +73,7 @@ int main() {
 
     head = reverseList(head);        // 🔁 Reverse the list
 
-    printf("\nReversed List:\n");
+    printf("\nReversed List:\n");   
     printList(head);                 // 🔹 Display reversed list
 
     return 0;

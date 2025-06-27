@@ -1,3 +1,4 @@
+// Header file
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -33,7 +34,6 @@ struct Student_details* createStudent() {
     scanf("%d", &newStudent->mark3);
 
     newStudent->total = newStudent->mark1 + newStudent->mark2 + newStudent->mark3;
-    newStudent->next = NULL;
 
     return newStudent;
 }

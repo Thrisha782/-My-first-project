@@ -1,3 +1,5 @@
+//Header file
+
 #include <stdio.h>
 
 // ✅ Function 1: To input array elements
