@@ -45,12 +45,12 @@ void reverseList() {
     struct node* next =curr->link ;
 
     while (curr != NULL) {
-        next = curr->link;
-        curr->link = prev;
-        prev = curr;
-        curr = next;
+        next = curr->link;        //store the next node
+        curr->link = prev;        //reverse the link
+        prev = curr;              //move prev forward
+        curr = next;              //move current forward
     }
-    head = prev;
+    head = prev;                  // update head to new first node
 }
 
 // Main function
