@@ -40,7 +40,8 @@ void addAtEnd(int value) {
     struct Node* temp = head;
     while (temp->next != NULL)  // Go to last node
         temp = temp->next;
-    temp->next = newNode;       // Link last node to new node
+
+        temp->next = newNode;       // Link last node to new node
     newNode->prev = temp;       // Link back from new node
 }
 
@@ -174,6 +175,12 @@ int main() {
 
             case 4:
                 printf("Enter value and position: ");
+ 
+ 
+ 
+ 
+ 
+ 
                 scanf("%d %d", &value, &pos);
                 addAtPosition(value, pos);
                 printList();
